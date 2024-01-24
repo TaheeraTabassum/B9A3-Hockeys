@@ -1,152 +1,364 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>B9A3 Hockeys</title>
-    
-<link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>B9A3 Hockeys</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
+
 <body>
-    <header>
-        <div class="navbar lg:px-20">
-            <div class="navbar-start ">
-              <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                </div>
-                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                    <li><a>Home</a></li>
-                 <li><a>About</a></li>
-                 <li><a>Pages</a></li>
-                 <li><a>Blog</a></li>
-                 <li><a>Contact</a></li>
-                </ul>
-              </div>
-              <a class="btn btn-ghost text-xl  gap-0">Hockey<span class="text-orange-500">’</span>s</a>
-            </div>
-            <div class="navbar-center hidden lg:flex gap-10">
-              <ul class="menu menu-horizontal px-1">
-                    <li><a>Home</a></li>
-                 <li><a>About</a></li>
-                 <li><a>Pages</a></li>
-                 <li><a>Blog</a></li>
-                 <li><a>Contact</a></li>
-              </ul>
-              <div class="ml-30"><img src="./B9A3-Hockeys-main/Images/magnifying-glass-solid.svg" alt=""></div>
-            </div>
-            <div class="navbar-end">
+  <header>
+    <div class="navbar lg:px-20">
+      <div class="navbar-start ">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Pages</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
+        <a class="btn btn-ghost text-xl  gap-0">Hockey<span class="text-orange-500">’</span>s</a>
+      </div>
+      <div class="navbar-center hidden lg:flex gap-10">
+        <ul class="menu menu-horizontal px-1">
+          <li><a class="text-[#FF4240]">Home</a></li>
+          <li><a>About</a></li>
+          <li><a>Pages</a></li>
+          <li><a>Blog</a></li>
+          <li><a>Contact</a></li>
+        </ul>
+        <div class="ml-30"><img src="./B9A3-Hockeys-main/Images/magnifying-glass-solid.svg" alt=""></div>
+      </div>
+      <div class="navbar-end">
 
-              <a class="btn bg-[#FF4240] text-[#FFFFFF]">Get Ticket</a>
+        <a class="btn bg-[#FF4240] text-[#FFFFFF]">Get Ticket</a>
+      </div>
+    </div>
+
+
+    <!--banner section-->
+
+    <div class="carousel w-full lg:relative">
+      <div id="slide1" class="carousel-item relative w-full">
+        <img src="./B9A3-Hockeys-main/Images/1.png" class=" w-full px-4 lg:px-20 mx-auto h-96" />
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide4" class="btn btn-circle w-auto mx-auto">❮</a>
+          <a href="#slide2" class="btn btn-circle w-auto mx-auto">❯</a>
+        </div>
+      </div>
+      <div id="slide2" class="carousel-item relative w-full">
+        <img src="./B9A3-Hockeys-main/Images/10.png" class="w-auto mx-auto h-96" />
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide1" class="btn btn-circle w-auto mx-auto">❮</a>
+          <a href="#slide3" class="btn btn-circle w-auto mx-auto">❯</a>
+        </div>
+      </div>
+      <div class="card w-96 shadow-xl absolute top-96 ml-4 mt-4 lg:absolute lg:top-52 lg:left-1/2">
+        <div class="card-body bg-[#131318] rounded-box">
+          <h2 class="card-title text-[#FFFFFF]">Meet all the heroes from the field</h2>
+          <p class=" text-[#FFFFFF99]">If a dog chews shoes whose shoes does he choose?</p>
+        </div>
+      </div>
+    </div>
+
+
+
+  </header>
+  <main>
+    <!--radial progress -->
+
+    <section class=" w-full px-4 lg:px-20 lg:mt-4 mx-auto">
+      <div class="card w-full mb-4 mt-32  bg-white text-neutral-content  px-4 lg:px-20 lg:mt-4 mx-auto ">
+        <div class="card-body items-center text-center px-4">
+          <h2 class="card-title text-[#131318]">Professional Hockeys Club</h2>
+          <p class="text-[#424247]">Work hard with us to be the best version of yourself, Keep Fighting.</p>
+        </div>
+      </div>
+      <div>
+        <div class="circe-cards lg:flex lg:flex-row justify-center">
+          <div class="first-circle text-center flex-1">
+            <div class="radial-progress text-[#FF4240]" style="--value:87;" role="progressbar"><span
+                class="text-[#131318]">87%</span>
+            </div>
+            <div class="card w-96">
+              <div class="card-body items-center text-center bg-[#FFF] rounded-box">
+                <h2 class="card-title text-sm  text-[#131318]">Prayer Facility</h2>
+                <p class="text-sm text-[#13131899]">keep your prayer and belief
+                  with <br>your hardwork</p>
+              </div>
             </div>
           </div>
 
 
-          <!--banner section-->
-
-            <div class="carousel w-full lg:relative">
-              <div id="slide1" class="carousel-item relative w-full">
-                <img src="./B9A3-Hockeys-main/Images/1.png" class=" w-full px-4 lg:px-20 mx-auto h-96" />
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                  <a href="#slide4" class="btn btn-circle w-auto mx-auto">❮</a> 
-                  <a href="#slide2" class="btn btn-circle w-auto mx-auto">❯</a>
-                </div>
-              </div> 
-              <div id="slide2" class="carousel-item relative w-full">
-                <img src="./B9A3-Hockeys-main/Images/10.png" class="w-auto mx-auto h-96" />
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                  <a href="#slide1" class="btn btn-circle w-auto mx-auto">❮</a> 
-                  <a href="#slide3" class="btn btn-circle w-auto mx-auto">❯</a>
-                </div>
-              </div>
-            <div class="card w-96 shadow-xl absolute top-96 ml-4 mt-4 lg:absolute lg:top-52 lg:left-1/2">
-              <div class="card-body bg-[#131318] rounded-box" >
-                <h2 class="card-title text-[#FFFFFF]">Meet all the heroes from the field</h2>
-                <p class=" text-[#FFFFFF99]">If a dog chews shoes whose shoes does he choose?</p>
+          <div class="first-circle text-center flex-1">
+            <div class="radial-progress text-[#49D293]" style="--value:95;" role="progressbar"><span
+                class="text-[#131318]">95%</span>
+            </div>
+            <div class="card w-96">
+              <div class="card-body items-center text-center bg-[#FFF] rounded-box">
+                <h2 class="card-title text-sm  text-[#131318]">Experienced Coach</h2>
+                <p class="text-sm text-[#13131899]">Get the best support for your goal <br>your ambition</p>
               </div>
             </div>
           </div>
-        
-
-
-    </header>
-    <main>
-      <!--radial progress -->
-
-      <section>
-        <div class="card w-full mt-24  bg-white text-neutral-content  px-4 lg:px-20 lg:mt-4 mx-auto ">
-          <div class="card-body items-center text-center">
-            <h2 class="card-title text-[#131318]">Professional Hockeys Club</h2>
-            <p class="text-[#424247]">Work hard with us to be the best version of yourself, Keep Fighting.</p>
+          <div class="first-circle text-center flex-1">
+            <div class="radial-progress text-yellow-500" style="--value:90;" role="progressbar"><span
+                class="text-[#131318]">90%</span>
+            </div>
+            <div class="card w-96">
+              <div class="card-body items-center text-center bg-[#FFF] rounded-box">
+                <h2 class="card-title text-sm  text-[#131318]">Senior Player</h2>
+                <p class="text-sm text-[#13131899]">Get the chance to play with Experienced players and show <br> them
+                  your dedication</p>
+              </div>
+            </div>
+          </div>
+          <div class="first-circle text-center flex-1">
+            <div class="radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar"><span
+                class="text-[#131318]">80%</span>
+            </div>
+            <div class="card w-96">
+              <div class="card-body items-center text-center bg-[#FFF] rounded-box">
+                <h2 class="card-title text-sm  text-[#131318]">Training Ground</h2>
+                <p class="text-sm text-[#13131899]">get all time practicing chance and <br>support 24/7</p>
+              </div>
+            </div>
           </div>
         </div>
-        <div>
-          <div class="circe-cards gap-8 lg:flex lg:flex-row justify-center">
-            <div class="first-circle text-center flex-1">
-              <div class="radial-progress text-[#FF4240]" style="--value:87;" role="progressbar"><span class="text-[#131318]">87%</span>
+      </div>
+      </div>
+      </div>
+
+      </div>
+    </section>
+
+    <!--program section-->
+
+    <section class=" w-full mb-4 px-4 lg:px-20 lg:mt-4 lg:mx-auto">
+      <div class="card w-full mb-4 mt-4  bg-white text-neutral-content  px-4 lg:px-20 lg:mt-4 mx-auto ">
+        <div class="card-body items-center text-center px-4">
+          <h2 class="card-title text-[#131318]">Program Sections</h2>
+          <p class="text-[#424247]">Work hard with us to be the best version of yourself, Keep Fighting.</p>
+        </div>
+      </div>
+      <div class=" w-full mb-16 mt-16 px-4 lg:px-20 lg:mt-4 mx-auto">
+        <div class="two-cards grid gap-4 lg:flex lg:flex-row lg:gap-6 lg:mb-6">
+          <div class="card  w-full lg:w-96  image-full lg:flex-1">
+            <figure><img src="./B9A3-Hockeys-main/Images/2.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <div class="lg:mt-16">
+                <h2 class="card-title text-[#FFFFFF]">Junior Program</h2>
+                <p class="text-[#FFFFFF]">The Junior Professional Associate (JPA) program is a unique opportunity to
+                  gain entry-level professional experience and first-hand exposure to the challenges </p>
               </div>
-              <div class="card w-96">
-                <div class="card-body items-center text-center bg-[#FFF] rounded-box" >
-                  <h2 class="card-title text-sm  text-[#131318]">Prayer Facility</h2>
-                  <p class="text-sm text-[#13131899]">keep your prayer and belief
-                     with <br>your hardwork</p>
+              <div class="card-actions justify-start mt-4">
+                <a class="btn bg-[#FF4240] text-[#FFFFFF]">Register Now</a>
+
+              </div>
+            </div>
+          </div>
+          <div class="card w-full lg:w-96  image-full lg:flex-1">
+            <figure><img src="./B9A3-Hockeys-main/Images/3.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <div class="lg:mt-16">
+                <h2 class="card-title text-[#FFFFFF]">Teenager program</h2>
+                <p class="text-[#FFFFFF]">The Junior Professional Associate (JPA) program is a unique opportunity to
+                  gain entry-level professional experience and first-hand exposure to the challenges </p>
+              </div>
+              <div class="card-actions justify-start mt-4">
+                <a class="btn bg-[#FF4240] text-[#FFFFFF]">Register Now</a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card  w-full image-full mt-4">
+          <figure><img src="./B9A3-Hockeys-main/Images/4.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <div class="lg:mt-48">
+              <h2 class="card-title text-[#FFFFFF]">Professional Program</h2>
+              <p class="text-[#FFFFFF]" Junior Professional Associate (JPA) <br> program is a unique opportunity to gain
+                entry-level professional experience and first-hand <br> exposure to the challenges </p>
+            </div>
+            <div class="card-actions justify-start mt-4">
+              <a class="btn bg-[#FF4240] text-[#FFFFFF]">Register Now</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--new product section-->
+
+    <section class=" w-full mb-4 px-4 lg:px-20 lg:mt-4 lg:mx-auto">
+      <div class="card w-full mb-4 mt-32  bg-white text-neutral-content  px-4 lg:px-20 lg:mt-4 mx-auto ">
+        <div class="card-body items-center text-center px-4">
+          <h2 class="card-title text-[#131318]">Our New Products</h2>
+          <p class="text-[#424247]">Work hard with us to be the best version of yourself, Keep Fighting.</p>
+        </div>
+      </div>
+      <div class="all-cards flex flex-col gap-4">
+        <div class="first-row lg:flex lg:flex-row lg:gap-4">
+            <div class="hero lg:max-h-80 w-96 bg-[#FFF] lg:flex-1">
+              <div class="hero-content flex-col lg:flex-row  border-[#1313181A] border-2 rounded-lg">
+                <img src="./B9A3-Hockeys-main/Images/5.png" class="max-w-sm rounded-lg shadow-2xl" />
+                <div>
+                  <div class="flex gap-2">
+                    <p>
+                      <div class="flex"><img src="./B9A3-Hockeys-main/icons/Frame.svg" alt="">5.0</div>
+                      <div class="flex"><img src="./B9A3-Hockeys-main/icons/Frame (2).svg" alt="">20</div>
+                      <div class="flex"><img src="./B9A3-Hockeys-main/icons/Frame (1).svg" alt="">200</div>
+                    </p>
+                  </div>
+                  <h1 class="text-xl font-bold mt-4">World Cup Flags Football</h1>
+                  <p class="py-6">The Junior Professional Associate (JPA) program is a unique opportunity.</p>
+                  <div class="flex">
+                    <p>
+                      <div><span class="text-[#FF4240] font-bold mr-4">Price - $22.00</span></div>
+                      <div class="flex font-bold gap-2"><img src="./B9A3-Hockeys-main/icons/Frame (3).svg" alt="">Delivery Fee : Free</div>
+                    </p>
+                  </div>
                 </div>
               </div>
-              </div>
-        
+            </div>
           
-            <div class="first-circle text-center flex-1">
-              <div class="radial-progress text-[#49D293]" style="--value:95;" role="progressbar"><span class="text-[#131318]">95%</span>
-              </div>
-              <div class="card w-96">
-                <div class="card-body items-center text-center bg-[#FFF] rounded-box" >
-                  <h2 class="card-title text-sm  text-[#131318]">Prayer Facility</h2>
-                  <p class="text-sm text-[#13131899]">keep your prayer and belief
-                     with <br>your hardwork</p>
-                </div>
-              </div>
-              </div>
-              <div class="first-circle text-center flex-1">
-                <div class="radial-progress text-yellow-500" style="--value:90;" role="progressbar"><span class="text-[#131318]">90%</span>
-                </div>
-                <div class="card w-96">
-                  <div class="card-body items-center text-center bg-[#FFF] rounded-box" >
-                    <h2 class="card-title text-sm  text-[#131318]">Prayer Facility</h2>
-                    <p class="text-sm text-[#13131899]">keep your prayer and belief
-                       with <br>your hardwork</p>
+            <div class="hero mt-4 lg:mt-0 lg:max-h-80 w-96 bg-[#FFF] lg:flex-1">
+              <div class="hero-content flex-col lg:flex-row  border-[#1313181A] border-2 rounded-lg">
+                <img src="./B9A3-Hockeys-main/Images/6.png" class="max-w-sm rounded-lg shadow-2xl" />
+                <div>
+                  <div class="flex gap-2">
+                    <p>
+                      <div class="flex"><img src="./B9A3-Hockeys-main/icons/Frame.svg" alt="">5.0</div>
+                      <div class="flex"><img src="./B9A3-Hockeys-main/icons/Frame (2).svg" alt="">20</div>
+                      <div class="flex"><img src="./B9A3-Hockeys-main/icons/Frame (1).svg" alt="">200</div>
+                    </p>
                   </div>
-                </div>
-                </div>
-                <div class="first-circle text-center flex-1">
-                  <div class="radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar"><span class="text-[#131318]">80%</span>
-                  </div>
-                  <div class="card w-96">
-                    <div class="card-body items-center text-center bg-[#FFF] rounded-box" >
-                      <h2 class="card-title text-sm  text-[#131318]">Prayer Facility</h2>
-                      <p class="text-sm text-[#13131899]">keep your prayer and belief
-                         with <br>your hardwork</p>
-                    </div>
-                  </div>
+                  <h1 class="text-xl font-bold mt-4">World Cup Flags Football</h1>
+                  <p class="py-6">The Junior Professional Associate (JPA) program is a unique opportunity.</p>
+                  <div class="flex">
+                    <p>
+                      <div><span class="text-[#FF4240] font-bold mr-4">Price - $22.00</span></div>
+                      <div class="flex font-bold gap-2"><img src="./B9A3-Hockeys-main/icons/Frame (3).svg" alt="">Delivery Fee : Free</div>
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+        <div class="first-row lg:flex lg:flex-row lg:gap-4">
+            <div class="hero lg:max-h-80 w-96 bg-[#FFF] lg:flex-1">
+              <div class="hero-content flex-col lg:flex-row  border-[#1313181A] border-2 rounded-lg">
+                <img src="./B9A3-Hockeys-main/Images/7.png" class="max-w-sm rounded-lg shadow-2xl" />
+                <div>
+                  <div class="flex gap-2">
+                    <p>
+                      <div class="flex"><img src="./B9A3-Hockeys-main/icons/Frame.svg" alt="">5.0</div>
+                      <div class="flex"><img src="./B9A3-Hockeys-main/icons/Frame (2).svg" alt="">20</div>
+                      <div class="flex"><img src="./B9A3-Hockeys-main/icons/Frame (1).svg" alt="">200</div>
+                    </p>
+                  </div>
+                  <h1 class="text-xl font-bold mt-4">Cap For Hockeys</h1>
+                  <p class="py-6">The Junior Professional Associate (JPA) program is a unique opportunity.</p>
+                  <div class="flex">
+                    <p>
+                      <div><span class="text-[#FF4240] font-bold mr-4">Price - $22.00</span></div>
+                      <div class="flex font-bold gap-2"><img src="./B9A3-Hockeys-main/icons/Frame (3).svg" alt="">Delivery Fee : Free</div>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           
-        </div>
-      </section>
+            <div class="hero mt-4 lg:mt-0 lg:max-h-80 w-96 bg-[#FFF] lg:flex-1">
+              <div class="hero-content flex-col lg:flex-row  border-[#1313181A] border-2 rounded-lg">
+                <img src="./B9A3-Hockeys-main/Images/8.png" class="max-w-sm rounded-lg shadow-2xl" />
+                <div>
+                  <div class="flex gap-2">
+                    <p>
+                      <div class="flex"><img src="./B9A3-Hockeys-main/icons/Frame.svg" alt="">5.0</div>
+                      <div class="flex"><img src="./B9A3-Hockeys-main/icons/Frame (2).svg" alt="">20</div>
+                      <div class="flex"><img src="./B9A3-Hockeys-main/icons/Frame (1).svg" alt="">200</div>
+                    </p>
+                  </div>
+                  <h1 class="text-xl font-bold mt-4">World Cup Flags Football</h1>
+                  <p class="py-6">The Junior Professional Associate (JPA) program is a unique opportunity.</p>
+                  <div class="flex">
+                    <p>
+                      <div><span class="text-[#FF4240] font-bold mr-4">Price - $22.00</span></div>
+                      <div class="flex font-bold gap-2"><img src="./B9A3-Hockeys-main/icons/Frame (3).svg" alt="">Delivery Fee : Free</div>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="first-row lg:flex lg:flex-row lg:gap-4">
+            <div class="hero lg:max-h-80 w-96 bg-[#FFF] lg:flex-1">
+              <div class="hero-content flex-col lg:flex-row  border-[#1313181A] border-2 rounded-lg">
+                <img src="./B9A3-Hockeys-main/Images/9.png" class="max-w-sm rounded-lg shadow-2xl" />
+                <div>
+                  <div class="flex gap-2">
+                    <p>
+                      <div class="flex"><img src="./B9A3-Hockeys-main/icons/Frame.svg" alt="">5.0</div>
+                      <div class="flex"><img src="./B9A3-Hockeys-main/icons/Frame (2).svg" alt="">20</div>
+                      <div class="flex"><img src="./B9A3-Hockeys-main/icons/Frame (1).svg" alt="">200</div>
+                    </p>
+                  </div>
+                  <h1 class="text-xl font-bold mt-4">World Cup Flags Football</h1>
+                  <p class="py-6">The Junior Professional Associate (JPA) program is a unique opportunity.</p>
+                  <div class="flex">
+                    <p>
+                      <div><span class="text-[#FF4240] font-bold mr-4">Price - $22.00</span></div>
+                      <div class="flex font-bold gap-2"><img src="./B9A3-Hockeys-main/icons/Frame (3).svg" alt="">Delivery Fee : Free</div>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="hero mt-4 lg:mt-0 lg:max-h-80 w-96 bg-[#FFF] lg:flex-1">
+              <div class="hero-content flex-col lg:flex-row  border-[#1313181A] border-2 rounded-lg">
+                <img src="./B9A3-Hockeys-main/Images/10.png" class="max-w-sm rounded-lg shadow-2xl" />
+                <div>
+                  <div class="flex gap-2">
+                    <p>
+                      <div class="flex"><img src="./B9A3-Hockeys-main/icons/Frame.svg" alt="">5.0</div>
+                      <div class="flex"><img src="./B9A3-Hockeys-main/icons/Frame (2).svg" alt="">20</div>
+                      <div class="flex"><img src="./B9A3-Hockeys-main/icons/Frame (1).svg" alt="">200</div>
+                    </p>
+                  </div>
+                  <h1 class="text-xl font-bold mt-4">World Cup Flags Football</h1>
+                  <p class="py-6">The Junior Professional Associate (JPA) program is a unique opportunity.</p>
+                  <div class="flex">
+                    <p>
+                      <div><span class="text-[#FF4240] font-bold mr-4">Price - $22.00</span></div>
+                      <div class="flex font-bold gap-2"><img src="./B9A3-Hockeys-main/icons/Frame (3).svg" alt="">Delivery Fee : Free</div>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>          
+      </div>
+    </section>
+    
+  </main>
+  <footer>
 
-
-
-    </main>
-
-
-
-    </main>
-    <footer>
-
-    </footer>
+  </footer>
 </body>
+
 </html>
